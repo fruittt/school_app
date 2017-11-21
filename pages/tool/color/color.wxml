@@ -1,0 +1,25 @@
+<toast hidden="{{tipsHidden}}" icon="warn" duration="2000" bindchange="toHide">
+  请输入0~255的数值
+</toast>  
+<view>
+  <text>RGB转十六进制</text>
+</view>
+
+<view class='rgb'>
+  <input type='number' maxlength='3' bindinput='setrgb' data-id='1'></input>
+  <input type='number' maxlength='3' bindinput='setrgb' data-id='2'></input>
+  <input type='number' maxlength='3' bindinput='setrgb' data-id='3'></input>
+  <button bindtap='toHexString'>转换</button>
+  <text>#{{HEX}}</text>
+</view>
+
+<view>
+    <text>十六进制转RBG</text>
+</view>
+
+<view class='hex'>
+  <text class='flag'>#</text>
+  <input type='number' maxlength='6' bindinput='sethex'></input>
+  <button bindtap='toRgbString'>转换</button>
+  <text>{{RGB}}</text>
+</view>

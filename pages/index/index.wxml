@@ -1,0 +1,18 @@
+<!--pages/index/index.wxml-->
+<view class="pages">
+	<toast hidden="{{tipsHidden}}" icon="warn" duration="2000" bindchange="toHide">
+		请输入学号
+	</toast>
+	<view class="container">
+		<view class="logo">
+			<image src="{{logo}}"></image>
+			<text>图书馆借书查询</text>
+		</view>
+		<view class="search">
+			<input bindinput="bindId" type="number" placeholder="请输入学号" value="{{id}}"></input>
+		</view>
+		<view class="button">
+			<button bindtap="search" size="mini">查询</button>
+		</view>
+	</view>
+</view>

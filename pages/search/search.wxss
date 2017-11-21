@@ -1,0 +1,24 @@
+/* pages/search/search.wxss */
+page{
+  display: flex;
+  align-items: center;
+}
+.page{
+  display: flex;
+  justify-content: space-between;
+  width: 400rpx;
+  margin: 0 auto;
+}
+.s-1,.s-2{
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+
+}
+text{
+  font-size: 40rpx;
+}
+icon{
+  display: block;
+  margin-left: 30rpx;
+}

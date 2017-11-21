@@ -1,0 +1,6 @@
+<!--pages//borrow/borrow.wxml-->
+<import src="../../templates/book.wxml"/>
+
+<view class="list">
+	<template is="borrow" data="{{listArr,id}}"/>
+</view>

@@ -1,0 +1,10 @@
+<view class='page'>
+  <view class='img'>
+    <image src='{{userInfoAvatar}}'></image>
+  </view>
+  <view>昵称：{{nickName}}</view>
+  <view class='list'>
+    <view>问题反馈</view>
+    <view>联系我们</view>
+  </view>
+</view>

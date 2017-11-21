@@ -1,0 +1,47 @@
+<!--pages/news/news.wxml-->
+<import src="../../templates/swiper.wxml"/>
+
+<template is='swiper' data='{{swiper}}'/>
+
+<view class='t1'>
+  <text>校园服务</text>
+</view>
+ <view class='line'>
+  <view class='l-item1' bindtap='turn' data-id='1'>
+  	<view>
+  		<icon type='search' color='green'></icon>
+  	</view>
+  	<text>借书查询</text>
+  </view>
+  <view class='l-item2' bindtap='turn' data-id='2'>
+  	<view>
+      <icon type='search' color='red'></icon>
+    </view>
+  	<text>馆藏查询</text>
+  </view>
+  <view class='l-item3' bindtap='turn'>
+  	<text>即将开放</text>
+  </view>
+</view>
+
+<view class='t1'>
+  <text>实用工具</text>
+</view>
+ <view class='line'>
+  <view class='l-item1' bindtap='turn' data-id='3'>
+  	<view>
+  		<icon type='search' color='green'></icon>
+  	</view>
+  	<text style='font-size: 23rpx;'>RBG与十六进制转换</text>
+  </view>
+  <view class='l-item2' bindtap='turn' data-id='2'>
+  	<view>
+      <icon type='search' color='red'></icon>
+    </view>
+  	<text>CAD快捷键大全</text>
+  </view>
+  <view class='l-item3' bindtap='turn'>
+  	<text>即将开放</text>
+  </view>
+</view>
+

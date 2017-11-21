@@ -1,0 +1,12 @@
+<!--pages/search/search.wxml-->
+<view class='page'>
+  <view class='s-1' bindtap='turn1'>
+    <icon type='search' size='50' color='green'>
+    </icon>
+    <text>借书查询</text>
+  </view>
+  <view class='s-2' bindtap='turn2'>
+    <icon type='search' size='50' color='red'>
+    </icon><text>馆藏查询</text>    
+  </view>
+</view>

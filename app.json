@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/search/search",
+    "pages/index/index",
+    "pages/user/user",
+    "pages/borrow/borrow",
+    "pages/book/book",
+    "pages/bdetail/bdetail",
+    "pages/news/news",
+    "pages/tool/color/color"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#292D2F",
+    "navigationBarTitleText": "建院通",
+    "navigationBarTextStyle": "witle"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/news/news",
+        "text": "首页",
+        "iconPath": "image/news.png",
+        "selectedIconPath": "image/news.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "查询",
+        "iconPath": "image/atsearch.png",
+        "selectedIconPath": "image/search.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我",
+        "iconPath": "image/my.png",
+        "selectedIconPath": "image/atmy.png"
+      }
+    ]
+  }
+}

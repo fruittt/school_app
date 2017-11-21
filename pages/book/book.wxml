@@ -1,0 +1,16 @@
+<!--pages/book/book.wxml-->
+<import src="../../templates/book.wxml"/>
+
+<view class='pages'>
+  <view class='search'>
+    <input placeholder="请输入书名" value="{{bookStr}}" confirm-type='search' bindinput='bindBook'></input>
+   <view class='icon' bindtap=''>
+      <icon type='search' color='#08d198'></icon>
+  </view>
+  <text class='notice'>公告：搜索功能暂缺</text>
+</view>
+  
+  <scroll-view class='booklist' scroll-y='true'>
+  <template is="book" data="{{bookList}}"/>
+  </scroll-view>
+</view>

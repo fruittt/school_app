@@ -1,0 +1,24 @@
+<template name='box'>
+<block wx:for="boxlist" key="">
+  <view wx:if="{{item.id == 1}}" class='t1'>
+    <text>{{item.title}}</text>
+  </view>
+   <view class='line'>
+    <view class='l-item1' bindtap='turn' data-id='1'>
+    	<view>
+  		  <icon type='search' color='green'></icon>
+  	  </view>
+  	  <text>{{item.b1}}</text>
+    </view>
+    <view class='l-item2' bindtap='turn' data-id='2'>
+    	<view>
+        <icon type='search' color='red'></icon>
+      </view>
+    	<text>{{item.b2}}</text>
+    </view>
+    <view class='l-item3' bindtap='turn'>
+  	  <text>{{item.b3}}</text>
+    </view>
+  </view>
+</block>
+</template>

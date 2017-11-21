@@ -1,0 +1,20 @@
+//馆藏查询
+<template name="book">
+  <block wx:for='{{bookList}}' wx:key=''>
+    <view class='list-item' bindtap='bookDetail' data-id="{{item.id}}">
+      <text class='item-name'>{{item.name}}</text>
+      <text class='item-id'>{{item.id}}</text>
+      <text class='item-author'>作者: {{item.author}}</text>
+    </view>
+  </block>
+</template>
+//借书查询
+<template name="borrow">
+  <block wx:for-items="{{listArr}}" wx:key=''>
+		<view class="list-item">学号:{{id}}
+			<view class="item-ic">书名:{{item.name}}</view>
+			<view class="item-tx">到期事件:{{item.time}}</view>
+			<view class="item-day">借出人:{{item.user}}</view>
+		</view>
+	</block>
+</template>

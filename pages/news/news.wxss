@@ -1,0 +1,38 @@
+.picurl{
+  width: 100%;
+  height: 100%;
+}
+.t1{
+  display: block;
+  height: 40rpx;
+  background-color: #E6E6FA;
+  line-height: 35rpx;
+  padding: 10rpx;
+}
+.t1 text{
+  font-size: 26rpx;
+  color: #1F2224;
+}
+.line{
+  display: flex;
+  flex-wrap: wrap;
+  height: 200rpx;
+  width: 100%;
+  font-size: 30rpx;
+  text-align: center;
+}
+.l-item1,.l-item2,.l-item3{
+  display: block;
+  flex-grow: 1;
+  height: 200rpx;
+  min-width: 200rpx;
+  border-right: 1rpx solid #E6E6FA;
+  border-bottom: 1rpx solid #E6E6FA;
+}
+.l-item3{
+  border-right: none;
+  line-height: 200rpx;
+}
+.line icon{
+  margin-top: 50rpx;
+}
