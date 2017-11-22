@@ -1,0 +1,6 @@
+<view class="section">
+  <form bindsubmit="bindFormSubmit">
+    <textarea placeholder="请输入反馈问题" placeholder-style="color:#20B2AA;" name="textarea" auto-focus/>
+    <button form-type="submit"> 提交 </button>
+  </form>
+</view>

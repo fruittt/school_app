@@ -1,0 +1,6 @@
+textarea{
+  margin: 20rpx auto;
+  padding: 20rpx;
+  font-size: 30rpx;
+  border: 1px solid #20B2AA;
+}

@@ -44,5 +44,15 @@ Page({
         console.log("获取用户信息完成！")
       }
     })
+  },
+  question: function () {
+    wx.navigateTo({
+      url: 'detail/question'
+    })
+  },
+  call: function () {
+    wx.navigateTo({
+      url: 'detail/call'
+    })
   }
 })

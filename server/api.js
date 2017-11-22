@@ -1,3 +1,4 @@
+//暂缺
 const wxRequest = (detail,url) => {
   wx.request({
     url: url,
@@ -18,4 +19,4 @@ const wxRequest = (detail,url) => {
   })
 }
 //传地址
-const purl = (params) => wxRequest(params, params.url)
+const purl = (detail) => wxRequest(detail, detail.url)

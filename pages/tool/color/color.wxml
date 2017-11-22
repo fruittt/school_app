@@ -1,3 +1,4 @@
+<!--暂缺美化-->
 <toast hidden="{{tipsHidden}}" icon="warn" duration="2000" bindchange="toHide">
   请输入0~255的数值
 </toast>  

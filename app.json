@@ -1,8 +1,10 @@
 {
-  "pages": [
-    "pages/search/search",
+  "pages": [    
     "pages/index/index",
+    "pages/search/search",
     "pages/user/user",
+    "pages/user/detail/question",
+    "pages/user/detail/call",
     "pages/borrow/borrow",
     "pages/book/book",
     "pages/bdetail/bdetail",
@@ -24,7 +26,7 @@
         "selectedIconPath": "image/news.png"
       },
       {
-        "pagePath": "pages/search/search",
+        "pagePath": "pages/index/index",
         "text": "查询",
         "iconPath": "image/atsearch.png",
         "selectedIconPath": "image/search.png"

@@ -7,6 +7,7 @@ Page({
    */
   data: {
     bookStr:'',
+    //测试数组
     bookList:[
       {name: 'JavaScript语言精粹',
       id:'TP312/1272',
@@ -39,7 +40,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    api.purl({
+
+    })
   },
 
   /**
