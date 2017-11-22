@@ -2,6 +2,8 @@
 
 一个基于微信小程序的学院app
 
+![](https://github.com/fruittt/school_app/blob/master/image/screenshot.gif?raw=true)
+
 ## 基本功能
 
 1.借书查询功能
