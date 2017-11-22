@@ -1,5 +1,5 @@
 <template name='box'>
-<block wx:for="boxlist" key="">
+<block wx:for="boxlist" wx:key="">
   <view wx:if="{{item.id == 1}}" class='t1'>
     <text>{{item.title}}</text>
   </view>

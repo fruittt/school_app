@@ -1,6 +1,6 @@
 <template name="swiper">
   <swiper autoplay='true' interval='3000' duration='1000'>
-    <block wx:for='{{swiper}}' key=''>
+    <block wx:for="{{swiper}}" wx:key="">
       <swiper-item>
         <text class='title'>{{item.title}}</text>
         <image class='picurl' src='{{item.picurl}}'></image>
